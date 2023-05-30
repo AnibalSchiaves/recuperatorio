@@ -1,0 +1,13 @@
+.error {
+    background-color:red;
+    color: white;
+}
+
+.exito {
+    background-color: aqua;
+}
+
+p[role=alert] {
+    /*background-color: red;*/
+    color: red;
+}

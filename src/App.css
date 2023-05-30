@@ -1,0 +1,81 @@
+html {
+  background-color: bisque;
+}
+
+.App {
+  text-align: center;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+header {
+  background-color:cadetblue;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:black;
+}
+
+header h1 {
+  font-size: 1.2em;
+}
+
+.footer-fix {
+  display: block;
+  min-height: 7vh;
+}
+
+footer {
+  background-color: cadetblue;
+  min-height: 7vh;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: table;
+  width: 100%;
+  color: black;
+  /*vertical-align: bottom;*/
+}
+
+footer span{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+navbar ul li{
+  display: inline-block;
+  padding: 5px;
+  background-color: #282c34;
+  color: white;
+  border-radius: 5px 5px;
+  margin: 5px;
+  min-width: 100px;
+  
+}
+
+navbar ul {
+    padding: 0;
+}
+
+navbar ul li a:visited{
+  color:white;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section fieldset {
+  display: inline-block;
+  min-width: 60%;
+  margin-top: 1.5em;
+}
+
+fieldset legend {
+  margin-bottom: 0.5em;
+}
+
